@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo"><img src="arasaka.webp" alt=""></div>
+    </header>
+    <div class="content">
+        <div class="imageContainer">
+            <img class="image" src="Cyberpunk.jpg" />
+        </div>
+        <div class="formContainer">
+            <div>
+                <p>This is a service akin to mikoshi from Cyberpunk, step into the soulkiller 
+                to restart your life in the virtual world!</p>
+                <p>We know you want to.</p>
+                <p>Let's do this!</p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" name="fName" required>
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" name="lName" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Login Info</legend>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                    <label for="pNum">Phone Number</label>
+                    <input type="tel" id="pNum" name="pNum">
+                </fieldset>
+                <fieldset>
+                    <legend>Passwords</legend>
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" required>
+                    <label for="cPass">Confirm Password</label>
+                    <input type="password" name="cPass" id="cPass" required>
+                </fieldset>
+                <button id="submit" type="submit">Create Account</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
